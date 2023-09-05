@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}   
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: flex-start;
+    z-index: 99;
+    cursor: pointer;
+}
+#nav img{
+    width: 30%;
+    height: 30vh;
+}
+#back{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+#main{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.396);
+    position: fixed;
+}
+#sign{
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 670px;
+    width: 440px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.894);
+}
+#sign h1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    color: azure;
+}
+#sign #emal{
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 50px;
+    color: white;
+    width: 310px;
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(128, 128, 128, 0.304);
+}
+#pss
+{
+    padding-top: 20px;
+}
+#sign #pass{
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 50px;
+    color: white;
+    width: 310px;
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(128, 128, 128, 0.304);
+}
+#click{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+#click button{
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+    width: 310px;
+    font-weight: 500;
+    background-color: red;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+#sign a{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+    align-items: flex-end;
+    text-decoration: none;
+}
+#lover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+#sign a:hover{
+    text-decoration: underline;
+}
+label{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.705);
+}
+#bottom{
+    padding-top: 13vh;
+    padding-bottom: 20px;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.823);
+}
+#bottom p{
+    padding-top: 18px;
+    font-size: 12px;
+}
+#bottom p a{
+    color: #0080FF;
+    font-weight: 400;
+}
